@@ -1,0 +1,47 @@
+body {
+    margin:0;
+    padding:0;
+    font-size:0;
+}
+
+/*Main Containers*/
+
+#container {
+    height:100vh;
+    width:100vw;
+    font-size:0;
+}
+
+#heroUI, #gameArea, #enemyUI {
+    height: 100%;
+    position:relative;
+    display:inline-block;
+    font-size:0;
+}
+
+#heroUI, #enemyUI {
+    width: 25%;
+background-color:blue;
+}
+
+#gameArea {
+    width:50%;
+}
+
+/*Inner Containers*/
+
+.stats {
+    width:100%;
+    height:33.33%;
+    background-color:aqua;
+    font-size:18px;
+
+}
+
+.card {
+    background-color:red;
+    height:10vh;
+    width:10vh;
+    margin:25px;
+    display:inline-block;
+}
