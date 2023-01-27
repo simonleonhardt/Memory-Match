@@ -39,7 +39,7 @@ background-color:blue;
 }
 
 .card {
-    background-color:red;
+    background-image: linear-gradient(red, yellow);
     height:10vh;
     width:10vh;
     margin:25px;
